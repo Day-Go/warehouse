@@ -1,0 +1,54 @@
+# Build outputs
+*.o
+*.so
+*.a
+*.exe
+warehouse
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile.cmake
+
+# Visual Studio files
+*.vcxproj.user
+*.sln.docstates
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+# Package managers
+vcpkg_installed/
+conan_toolchain.cmake
+conanbuildinfo.cmake
