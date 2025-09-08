@@ -3,7 +3,7 @@ CFLAGS = -Wall -Wextra -O2
 LDFLAGS = -lraylib -lm -lpthread -ldl -lrt -lX11
 
 TARGET = warehouse
-SOURCES = main.c grid.c
+SOURCES = main.c storage.c
 OBJECTS = $(SOURCES:.c=.o)
 
 $(TARGET): $(OBJECTS)
